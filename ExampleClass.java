@@ -22,6 +22,7 @@ public class ExampleClass {
     //end of Predicate
     Consumer c= str-> System.out.println("Hello "+str);
     //end of consumer
+
     Function<Integer,Double> square=(x)->Math.pow(x,2);
 //end of Function
     public static void main(String[] args) {
